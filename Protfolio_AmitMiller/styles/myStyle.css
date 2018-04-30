@@ -1,0 +1,304 @@
+body
+/*גוף*/ {
+    direction: rtl;
+    /*width: 960px;*/
+    margin: 0px;
+    background-color: antiquewhite;
+    font-family: Arial;
+}
+#container {
+    padding-top: 100px;
+    padding-bottom:100px;
+    padding-right:100px;
+    width: 960px;
+    height:450px;
+}
+/*תפריט ניווט*/
+nav {
+    width: 100%;
+    background-color: pink;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    height:60px;
+    line-height:60px;
+}
+
+    li a {
+        display: inline;
+        background-color: pink;
+        color: black;
+        height: 60px;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color:white;
+        }
+
+/* דף הבית - עיצוב כותרת אינדקס*/
+#koteret {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 57px;
+    /*font-family: Arial;*/
+    margin: -20px 210px 15px 0px;
+    color:deeppink;
+}
+.h2kesher {
+    margin: -3px 700px 0px 600px;
+    color: deeppink;
+}
+
+#rightdiv {
+    display: block;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+#leftdiv {
+    display:block;
+    float: left;
+    width: 50%;
+    height:100%;
+}
+/*תמונת פרופיל דף בית*/
+#profilepic {
+    height: 100%;
+    margin: 20px 230px 0px 0px;
+}
+
+/*פסקה עליי דף הבית*/
+.pindex {
+    color: black;
+    font-size: 34px;
+    font-family: Arial;
+    margin: 11px 197px 86px -155px;
+}
+
+
+/*אינסטגרם צור קשר*/
+#insta {
+    background-image: url("../images/instagram.png");
+    width: 64px;
+    height: 64px;
+    background-position: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    top: 800px;
+    margin: 17px 695px 0px 10px;
+}
+
+    #insta:hover {
+        background-position: 100%;
+        background-image: url('../images/instagram1.png');
+    }
+
+/*פייסבוק צור קשר*/
+#facebook {
+    background-image: url('../images/facebook.png');
+    width: 64px;
+    height: 64px;
+    background-position: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    top: 800px;
+    margin: 0px 0px 0px 0px;
+}
+
+    #facebook:hover {
+        background-position: 100%;
+        background-image: url('../images/facebook (1).png');
+    }
+/*מייל צור קשר*/
+#mail {
+    background-image: url("../images/email.png");
+    width: 64px;
+    height: 64px;
+    background-position: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    top: 800px;
+    margin:-450px 620px 16px -0px;
+}
+
+    #mail:hover {
+        background-position: 100%;
+        background-image: url('../images/email (1).png');
+    }
+
+/*דף תקשורת חזותית*/
+#hazotittext {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin: 7px 391px 0px 0px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+#hazotittext1 {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin: -20px 400px 0px 0px;
+}
+
+#koteretpicmakor {
+    margin: 31px 406px 8px 593px;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+    justify-content: center;
+    text-align: center;
+}
+
+#koteretpicshipor {
+    margin: -573px 654px 36px 629px;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+    justify-content: center;
+    text-align: center;
+}
+
+#hazotitpic1 {
+    width: 500px;
+    margin: 35px 483px 76px 0px;
+}
+
+.koteret1 {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Cambria;
+    margin: 0px -83px 0px 0px;
+    color:deeppink;
+}
+
+#hazotitpic {
+    width: 400px;
+    margin: 24px 238px 0px 0px;
+}
+
+#koteretsirton {
+    margin: 51px 420px 76px 0px;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+    justify-content: center;
+    text-align: center;
+}
+
+#sirtonhazotit {
+    margin: -53px 198px 0px 0px;
+
+}
+
+/*דף אנימציה*/
+
+#animationtext {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin: -90px 387px 33px 0px;
+    font-size: 18px;
+    font-family: Arial;
+}
+#koteretsyorybord {
+    margin: 5px 300px 0px 0px;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+    justify-content: center;
+    text-align: center;
+}
+
+#koteretsirtonanimate {
+    margin: 5px 350px 0px 0px;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+    justify-content: center;
+    text-align: center;
+}
+
+#animationpic {
+    margin: 12px 72px 0px 0px;
+    width: 530px;
+}
+
+#animatevidio {
+    margin: -655px 168px -392px -22px;
+    width: 451px;
+    height: 398px;
+}
+
+
+/*דף גרפיקה ממוחשבת ACT.IL*/
+
+#actiltext {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin: -90px 387px 33px 0px;
+    font-size:18px;
+   
+}
+
+#koteretact1 {
+    margin: 6px 290px 22px -28px;
+    color: black;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+#actilpic {
+    margin: -165px 622px 50px 0px;
+    width: 600px;
+    height:300px;
+}
+
+#audioactil {
+    margin: -613px -95px 118px -22px;
+    width: 354px;
+    height: 200px;
+}
+
+#actp {
+    margin: 28px 277px 0px 0px;
+    font-size:18px;
+    font-family:Arial;
+}
+
+#actilpic {
+    margin: -234px 577px 0px 0px;
+    width: 362px;
+    height: 442px;
+}
+
+#animate1pic {
+    margin: 31px 109px 0px 0px;
+    width: 498px;
+    height: 393px;
+}
+
+#hazotitshipor1 {
+    width: 600px;
+    height: 310px;
+    margin: 27px 406px 0px 0px;
+}
